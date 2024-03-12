@@ -54,10 +54,12 @@ produce an output file *experimentalchemie.pdf*.
 - Test on the original *Documenter's Workbench* troff, and remove my
   *groff*ism's to make it work. Dunno if DWB has a `.PSPIC` macro to allow
   imbedding EPS files. If not, this might be a show stopper.
+- The front page is to be shown twice in the rendered document, and also
+  contained twice in the source. Eliminate redundancy. How?
 - Properly implement drop caps for a certain advertisement which had drop caps
   in the original book. I just failed to come up with my own generic macro to
   implement them.
 
 ----
 
-2024-03-10, poc@pocnet.net.
+2024-03-12, poc@pocnet.net.
